@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HidroKaltim
 
-## Getting Started
+Web project built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## New Here? Start With This
+
+If this is your first time opening this repository, follow these steps in order:
+
+1. Install Node.js (LTS, recommended v20+).
+2. Clone the repository.
+3. Install dependencies.
+4. Run the development server.
+5. Open the app in your browser.
+
+## Quick Start
 
 ```bash
+# 1) Clone
+git clone git@github.com:ExtraYiban/HidroKaltim.git
+
+# 2) Enter folder
+cd HidroKaltim
+
+# 3) Install dependencies
+npm install
+
+# 4) Start local development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
+
+Run these in the project root:
+
+- `npm run dev`: Start development server.
+- `npm run build`: Build production output.
+- `npm run start`: Run production server after build.
+- `npm run lint`: Run ESLint checks.
+
+## Project Structure (Basic)
+
+- `app/`: App Router pages and layout.
+- `public/`: Static files (images, icons, etc).
+- `app/page.tsx`: Home page.
+- `app/layout.tsx`: Root layout.
+- `app/globals.css`: Global styles.
+
+## First Things To Edit
+
+If you want to start coding immediately:
+
+1. Edit `app/page.tsx` for homepage content.
+2. Edit `app/globals.css` for global styling.
+3. Run `npm run lint` before committing changes.
+
+## Common Beginner Issues
+
+- `npm` not found:
+	Install Node.js first, then restart terminal.
+- Port 3000 already used:
+	Stop the running process or run with another port.
+- Dependency install failed:
+	Delete `node_modules` and `package-lock.json`, then run `npm install` again.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js docs: https://nextjs.org/docs
+- TypeScript docs: https://www.typescriptlang.org/docs/
+- Tailwind CSS docs: https://tailwindcss.com/docs
